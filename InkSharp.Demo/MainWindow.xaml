@@ -43,6 +43,8 @@
                     <Button Content="Print" Command="{Binding PrintBitmapCommand}" Margin="0 0 16 0"/>
                     <Button Content="Clear" Command="{Binding ClearCommand}" />
                     <Button Content="Save" Command="{Binding SaveCommand}" />
+                    <Button Content="Load PNG" Command="{Binding LoadCommand}" />
+                    <Button Content="Load Base64 PNG" Command="{Binding LoadBase64PNGCommand}" />
                     <Button Content="Base64" Command="{Binding EncodeCommand}" />
                     <Button Content="Array" Command="{Binding ArrayCommand}" />
                 </WrapPanel>

@@ -10,7 +10,7 @@ using System.Drawing.Imaging;
 
 namespace InkSharp.Extensions
 {
-    internal static class BitmapExtensions
+    public static class BitmapExtensions
     {
         public static BitmapImage ToImageSource(this Bitmap bitmap)
         {
